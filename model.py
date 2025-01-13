@@ -148,7 +148,7 @@ class GlobalModel:
         - Excitation
         - Collisions élastiques
         - Pertes aux parois
-        - Dissociation et excitation vibrationnelle (plasma d'air)
+        - Dissociation et excitation vibrationnelle
         """
         # Ionisation et excitation
         a = self.E_iz * n_e * n_g * self.K_iz(T_e)
