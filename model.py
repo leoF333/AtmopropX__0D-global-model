@@ -139,6 +139,8 @@ class GlobalModel:
             prop[i] = func(sol[i])
         return prop
 
+# Nouvelles fonctions pour bilan de puissance et temperature molecules
+    
     def P_loss(self, T_e, T_g, n_e, n_g):
         # Old code :
         # a = self.E_iz * n_e * n_g * self.K_iz(T_e)
